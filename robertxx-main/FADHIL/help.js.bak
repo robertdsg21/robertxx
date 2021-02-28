@@ -1,0 +1,49 @@
+const help = (prefix, instagram, yt, name, pushname2, user, limitt) => { 
+	return `
+
+╭───────────────────
+┃╭─────────────────
+┃├➲ \`\`\`SALVE\`\`\`👋 *${pushname2}*
+┃├➲ \`\`\`Seu limite :\`\`\` *${limitt}*
+┃├➲ \`\`\`Verificação.   :\`\`\` *SIM*
+┃├➲ \`\`\`Premium.   :\`\`\` *NAO*
+┃├➲ \`\`\`Total de usuários :\`\`\` *${user.length} User*
+┃╰─────────────────
+┃
+┃╭───「 *LISTA MENU* 」───
+┃├❍ *${prefix}allmenu*
+┃├❍ *${prefix}mediamenu*
+┃├❍ *${prefix}creatormenu*
+┃├❍ *${prefix}groupmenu*
+┃├❍ *${prefix}makermenu*
+┃├❍ *${prefix}funmenu*
+┃├❍ *${prefix}nsfwmenu*
+┃├❍ *${prefix}onwermenu*
+┃╰─────────────────
+┃
+┃╭─────「 *ABOUT* 」───
+┃├❍ *${prefix}info*
+┃├❍ *${prefix}donasi*
+┃├❍ *${prefix}owner*
+┃├❍ *${prefix}speed*
+┃├❍ *${prefix}daftar*
+┃├❍ *${prefix}totaluser*
+┃├❍ *${prefix}chatlist*
+┃├❍ *${prefix}grouplist*
+┃├❍ *${prefix}blocklist*
+┃├❍ *${prefix}banlist*
+┃├❍ *${prefix}bahasa*
+┃╰─────────────────
+
+
+         *© BRUXINHO MODS*
+╲    ╱    ● ᏴϴͲ●ᎷᎬΝႮ●
+       ╱▔▔▔▔▔╲       Autor    : ARR157 BOT
+      ┃┈▇┈┈▇┈┃      
+╭╮┣━━━━━━┫╭╮    
+┃┃┃┈┈┈┈┈┈┃┃┃    
+╰╯┃┈┈┈┈┈┈┃╰╯
+      ╰┓┏━━┓┏╯
+         ╰╯      ╰╯`
+}
+exports.help = help
